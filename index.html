@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Стилі фонового зображення для абзацу */
+    p {
+      background-image: url('https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      padding: 20px;
+    }
+
+    /* Стилі фонового зображення для блоку */
+    .block {
+      background-image: url('https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Стилі рамки для зображень */
+    img {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Стилі рамки з використанням border-image */
+    .border-image {
+      border: 10px solid transparent;
+      border-image: url('https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg') 30 round;
+      padding: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Приклад роботи з зображеннями та стилізацією</h1>
+  
+  <h2>Фонове зображення для абзацу:</h2>
+  <p>Це текст з фоновим зображенням.</p>
+  
+  <h2>Фонове зображення для блоку:</h2>
+  <div class="block">
+    <p>Це блок з фоновим зображенням.</p>
+  </div>
+  
+  <h2>Рамка для зображень:</h2>
+  <img src="https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg" alt="Зображення 1">
+  <img src="https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg" alt="Зображення 2">
+  
+  <h2>Рамка з використанням border-image:</h2>
+  <div class="border-image">
+    <img src="https://kartinkof.club/uploads/posts/2022-05/1652994823_2-kartinkof-club-p-kartinka-serdtse-schastya-2.jpg" alt="Зображення 3">
+    <p>Це блок з рамкою, створеною зображенням.</p>
+  </div>
+</body>
+</html>
